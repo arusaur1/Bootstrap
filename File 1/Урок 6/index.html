@@ -1,0 +1,62 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="favicon.ico">
+	<title>Hello, world!</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<style>
+    .bs .row > .col, .bs .row > [class^="col-"] {
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+        background-color: #5a6268;
+        border: 1px solid #000;
+        color: #fff;
+    }
+    </style>
+</head>
+<body>
+
+	<div class="bs">
+		<div class="container">
+			
+			<h3>Колонки одинаковой ширины</h3>
+			<div class="row">
+				<div class="col">1</div>
+				<div class="col">2</div>
+				<div class="col">3</div>
+			</div>
+
+			<h3 class="mt-5">Установка ширины столбцов</h3>
+			<div class="row">
+				<div class="col">1</div>
+				<div class="col-6">2</div>
+				<div class="col">3</div>
+			</div>
+
+			<div class="row mt-3">
+				<div class="col-4">Sidebar</div>
+				<div class="col-8">Content</div>
+			</div>
+
+			<h3 class="mt-5">Содержимое переменной ширины</h3>
+			<div class="row">
+				<div class="col">1</div>
+				<div class="col-6">2</div>
+				<div class="col-auto">Lorem, ipsum.</div>
+			</div>
+
+			<div class="row mt-3">
+				<div class="col">1</div>
+				<div class="col-6">2</div>
+				<div class="col-md-auto">Lorem, ipsum.</div>
+			</div>
+
+		</div>
+	</div>
+
+	<script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
