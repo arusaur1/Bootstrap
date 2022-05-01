@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <style>
+        .bs .row > .col, .bs .row > [class^="col-"] {
+            padding-top: .75rem;
+            padding-bottom: .75rem;
+            background-color: #5a6268;
+            border: 1px solid #000;
+            color: #fff;
+        }
+        </style>
+</head>
+<body>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-12">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label" for="name">Name</label>
+                        <input type="text" class="form-control" name="name" id="name">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="Surename">Suarename</label>
+                        <input type="text" class="form-control" name="Suarename" id="Surename">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="mess">Message</label>
+                        <textarea name="mess" class="form-control" id="mess" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label">Default file input example</label>
+                        <input class="form-control" type="file" id="formFile">
+                      </div>
+
+                    <div>
+                        <button type="submit" class="btn-primary">Send</button>
+                    </div>
+                </form>
+
+                <form class="my-5 row">
+                    <div class="col-md-6 offset-md-3">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" name="name" id="name">
+                            <button type="submit" class="btn-primary">Send</button>
+                        </div >
+                    </div>
+                </form>
+
+                <form class="my-5">
+                    <div class="row mb-3">
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label class="form-label" for="name">Name</label>
+                                <input type="text" class="form-control" name="name" id="name">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label" for="name">Name</label>
+                                <input type="text" class="form-control" name="name" id="name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="mess">Message</label>
+                        <textarea name="mess" class="form-control" id="mess" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn-primary">Send</button>
+
+                    </div>
+                </form>
+
+                <form>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Comments</label>
+                      </div>
+                      <div>
+                        <button type="submit" class="btn-primary">Send</button>
+                    </div>
+                </form>
+
+                <form class="my-5">
+                    <div class="row g-2">
+                        <div class="col-md">
+                          <div class="form-floating">
+                            <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com">
+                            <label for="floatingInputGrid">name</label>
+                          </div>
+                        </div>
+
+                        <div class="col-md">
+                          <div class="form-floating">
+                                <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com">
+                                <label for="floatingSelectGrid">Surename</label>
+                          </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="mess">Message</label>
+                            <textarea name="mess" class="form-control" id="mess" cols="30" rows="10"></textarea>
+                        </div>
+                      <div>
+                        <button type="submit" class="btn-primary">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
